@@ -1,5 +1,4 @@
 # react-gatsby-site
 Start developing:
-
-npm install
-npm run develop
+1. npm install
+2. npm run develop
