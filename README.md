@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# react-gatsby-site
-Start developing:
-1. npm install
-2. npm run develop
-=======
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
@@ -53,4 +48,4 @@ Start developing:
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
->>>>>>> b38b180 (Initial commit from gatsby)
+
