@@ -1,9 +1,10 @@
 import * as React from 'react';
 
-const MyComponent = () => {
+const IndexPage = () => {
   return (
     <h1>Hi, welcome to my site!</h1>
   )
 }
 
-export default MyComponent;
+export const Head = () => <title>Home Page</title>;
+export default IndexPage;
