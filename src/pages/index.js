@@ -3,7 +3,11 @@ import { Link } from 'gatsby';
 
 const IndexPage = () => {
   return (
-    <h1>Hi, welcome to my site!</h1>
+    <div>
+      <Link to='/about'>About</Link>
+      <h1>Hi, welcome to my site!</h1>
+    </div>
+    
   )
 }
 
