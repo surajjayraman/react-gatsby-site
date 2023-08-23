@@ -5,7 +5,7 @@ const AboutPage = () => {
     return (
         <div>
             <Layout pageTitle='About Me'>
-                <h1>I'm a junior react dev, trying to build something!!!</h1>
+                <p>I'm a junior react dev, trying to build something!!!</p>
             </Layout>
         </div>
       
