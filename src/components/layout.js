@@ -3,9 +3,13 @@ import { Link, useStaticQuery, graphql } from 'gatsby';
 import { container, heading,
   navLinks,
   navLinkItem,
-  navLinkText } from  './layout.module.css';
+  navLinkText,
+  siteTitle } from  './layout.module.css';
 
 const Layout = ({ pageTitle, children }) => {
+  /* Use the useStaticQuery hook and
+    graphql tag to query for data
+    (The query gets run at build time) */
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -19,7 +23,7 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className={container}>
-       <header>{data.site.siteMetadata.title}</header>       
+       <header className={siteTitle}>{data.site.siteMetadata.title}</header>       
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
