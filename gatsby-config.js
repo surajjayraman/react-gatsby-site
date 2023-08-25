@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `my dream react-gatsby-site`,
+    title: `My Dream Gatsby Site`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
